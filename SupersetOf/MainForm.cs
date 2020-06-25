@@ -71,13 +71,13 @@ namespace SupersetOf
 				{
 					this.labelStatus.BackColor = Color.ForestGreen;
 					this.labelStatus.ForeColor = Color.White;
-					this.labelStatus.Text = "Is superset";
+					this.labelStatus.Text = "(A) is superset of (B)";
 				}
 				else
 				{
 					this.labelStatus.BackColor = Color.Firebrick;
 					this.labelStatus.ForeColor = Color.White;
-					this.labelStatus.Text = "Is NOT superset";
+					this.labelStatus.Text = "(A) is NOT superset of (B)";
 					this.textBoxDifferences.Text = String.Join(Environment.NewLine, differences);
 				}
 			}

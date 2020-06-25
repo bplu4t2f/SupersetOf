@@ -47,9 +47,9 @@
 			this.labelSupersetHint.AutoSize = true;
 			this.labelSupersetHint.Location = new System.Drawing.Point(23, 18);
 			this.labelSupersetHint.Name = "labelSupersetHint";
-			this.labelSupersetHint.Size = new System.Drawing.Size(84, 13);
+			this.labelSupersetHint.Size = new System.Drawing.Size(100, 13);
 			this.labelSupersetHint.TabIndex = 0;
-			this.labelSupersetHint.Text = "Check if folder...";
+			this.labelSupersetHint.Text = "Check if folder (A)...";
 			// 
 			// textBoxSuperset
 			// 
@@ -74,9 +74,9 @@
 			this.labelSubsetHint.AutoSize = true;
 			this.labelSubsetHint.Location = new System.Drawing.Point(23, 69);
 			this.labelSubsetHint.Name = "labelSubsetHint";
-			this.labelSubsetHint.Size = new System.Drawing.Size(116, 13);
+			this.labelSubsetHint.Size = new System.Drawing.Size(135, 13);
 			this.labelSubsetHint.TabIndex = 2;
-			this.labelSubsetHint.Text = "... is superst of folder ...";
+			this.labelSubsetHint.Text = "... is superset of folder (B)...";
 			// 
 			// buttonCancel
 			// 
@@ -147,7 +147,7 @@
 			this.buttonDeleteSubset.Name = "buttonDeleteSubset";
 			this.buttonDeleteSubset.Size = new System.Drawing.Size(156, 23);
 			this.buttonDeleteSubset.TabIndex = 8;
-			this.buttonDeleteSubset.Text = "Delete Subset";
+			this.buttonDeleteSubset.Text = "Delete Subset (B)";
 			this.buttonDeleteSubset.UseVisualStyleBackColor = true;
 			this.buttonDeleteSubset.Click += new System.EventHandler(this.ButtonDeleteSubset_Click);
 			// 
